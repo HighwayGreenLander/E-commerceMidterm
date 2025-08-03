@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: app
+    name: ecommercemidterm
     runtime: docker
     repo: https://github.com/HighwayGreenLander/E-commerceMidterm.git
     branch: main
