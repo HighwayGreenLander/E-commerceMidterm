@@ -7,11 +7,16 @@ use App\Http\Controllers\Frontend\UserController;
 use App\Http\Controllers\Frontend\NewsController;
 use App\Http\Controllers\Frontend\AboutController;
 use App\Http\Controllers\Frontend\CheckoutController;
+use Illuminate\Support\Facades\Artisan;
 
 // Route::get('/', function () {
 //     return view('frontend.layout.master'); // ✅ load the child view, not the master
 // });
 
+Route::get('/run-migrate', function () {
+    Artisan::call('migrate', ['--force' => true]);
+    return '✅ Migration done';
+});
 
 Route::controller(HomeController::class)->group(function(){
     Route::get('/','index')->name('home');

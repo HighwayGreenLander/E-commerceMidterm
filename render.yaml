@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: ecommerce-laravel
+    name: app
     runtime: docker
     repo: https://github.com/HighwayGreenLander/E-commerceMidterm.git
     branch: main
