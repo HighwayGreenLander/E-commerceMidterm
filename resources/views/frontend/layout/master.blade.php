@@ -43,7 +43,7 @@
 
 	 {{-- Start footer     --}}
 
-        @include('Frontend.layout.footer')
+        @include('frontend.layout.footer')
         
         {{-- End footer --}}
 
