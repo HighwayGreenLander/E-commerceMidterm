@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: your-app-name
+    runtime: docker
+    repo: http://github.com/HighwayGreenLander/E-commerceMidterm.git
+    branch: main
+    dockerfilePath: Dockerfile
