@@ -1,4 +1,4 @@
-@extends('Frontend/layout/master')
+@extends('frontend/layout/master')
 
 @section('header')
 <header id="gtco-header" class="gtco-cover gtco-cover-xs" role="banner" 

@@ -1,4 +1,4 @@
-@extends('Frontend/layout/master')
+@extends('frontend/layout/master')
 
 @section('title', 'User Profile')
 @section('User_avtive', 'active')
