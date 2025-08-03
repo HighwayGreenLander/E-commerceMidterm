@@ -1,7 +1,7 @@
 @extends('frontend/layout/master')
 
 @section('header')
-    <header id="gtco-header" class="gtco-cover" role="banner" style="background-image:url('{{ asset('Frontend/assets/images/Header-bg1.jpg') }}');background-repeat: no-repeat;background-size: cover;background-position: center;">
+    <header id="gtco-header" class="gtco-cover" role="banner" style="background-image:url('{{ secure_asset('Frontend/assets/images/Header-bg1.jpg') }}');background-repeat: no-repeat;background-size: cover;background-position: center;">
 				<div class="overlay"></div>
 				<div class="gtco-container">
 					<div class="row">

@@ -1,4 +1,4 @@
-@extends('Frontend/layout/master')
+@extends('frontend/layout/master')
 
 @section('header')
     <header id="gtco-header" class="gtco-cover gtco-cover-xs" role="banner" style="background-image:url('https://pppenglish.sgp1.digitaloceanspaces.com/image/large/field/image/topic-16.-khmer-national-identity-card-by-hong-menea-2.jpg');background-repeat: no-repeat;background-size: cover;background-position: center;">
