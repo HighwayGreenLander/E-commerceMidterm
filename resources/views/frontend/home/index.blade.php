@@ -1,4 +1,4 @@
-@extends('Frontend/layout/master')
+@extends('frontend/layout/master')
 
 @section('header')
     <header id="gtco-header" class="gtco-cover" role="banner" style="background-image:url('{{ asset('Frontend/assets/images/Header-bg1.jpg') }}');background-repeat: no-repeat;background-size: cover;background-position: center;">

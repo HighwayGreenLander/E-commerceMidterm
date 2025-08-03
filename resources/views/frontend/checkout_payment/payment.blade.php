@@ -1,4 +1,4 @@
-@extends('Frontend/layout/master')
+@extends('frontend/layout/master')
 
 @section('title', 'Checkout Registration')
 @section('Service_avtive', 'active')
