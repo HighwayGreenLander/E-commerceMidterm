@@ -1,4 +1,4 @@
-@extends('frontend/layout/master')
+@extends('Frontend/layout/master')
 
 @section('header')
 <header id="gtco-header" class="gtco-cover gtco-cover-xs" role="banner" style="background-image:url('https://mptc.gov.kh/wp-content/uploads/2021/04/traffic-law.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center;">

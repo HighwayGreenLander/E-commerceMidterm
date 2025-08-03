@@ -1,4 +1,4 @@
-@extends('frontend/layout/master')
+@extends('Frontend/layout/master')
 
 @section('header')
 <header id="gtco-header" class="gtco-cover gtco-cover-xs" role="banner" 
@@ -29,7 +29,7 @@
       <div class="col-md-6 col-md-offset-3">
         <h2 class="text-center">Please Log In</h2>
 
-        <form method="POST" action="{{ route('login') }}">
+        <form method="POST" >
           @csrf
 
           <div class="form-group">
@@ -63,7 +63,7 @@
             </div>
           </div>
 
-          <button type="submit" class="btn btn-primary btn-block">Log In</button>
+          <a href="{{route('profile')}}" htype="submit" class="btn btn-primary btn-block">Log In</a>
         </form>
 
         <div class="text-center" style="margin-top:15px;">

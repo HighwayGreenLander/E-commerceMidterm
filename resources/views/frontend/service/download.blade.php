@@ -1,4 +1,4 @@
-@extends('frontend/layout/master')
+@extends('Frontend/layout/master')
 
 @section('header')
 <header id="gtco-header" class="gtco-cover gtco-cover-xs" role="banner" style="background-image:url('https://pppenglish.sgp1.digitaloceanspaces.com/image/large/field/image/topic-16.-khmer-national-identity-card-by-hong-menea-2.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center;">
@@ -137,7 +137,7 @@
                     </div>
 
                     <div class="form-group">
-                        <button type="submit" class="btn btn-info btn-block">Check Status</button>
+                        <a type="submit" class="btn btn-info btn-block">Check Status</button>
                     </div>
                 </form>
 

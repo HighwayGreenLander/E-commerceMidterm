@@ -1,59 +1,52 @@
+<footer id="gtco-footer" role="contentinfo" style="background-color: #f8f8f8;">
+    <div class="gtco-container">
+        <div class="row row-p	b-md">
 
-	<footer id="gtco-footer" role="contentinfo">
-		<div class="gtco-container">
-			<div class="row row-p	b-md">
+            <div class="col-md-4">
+                <div class="gtco-widget">
+                    <h3>About the Platform</h3>
+                    <p>This portal offers Cambodian citizens a convenient way to manage their driver's license — from registration and renewal to digital license downloads — with integrated KHQR payment options.</p>
+                </div>
+            </div>
 
-				<div class="col-md-4">
-					<div class="gtco-widget">
-						<h3>About Us</h3>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eos molestias quod sint ipsum possimus temporibus officia iste perspiciatis consectetur in fugiat repudiandae cum. Totam cupiditate nostrum ut neque ab?</p>
-					</div>
-				</div>
+            <div class="col-md-4 col-md-push-1">
+                <div class="gtco-widget">
+                    <h3>Quick Links</h3>
+                    <ul class="gtco-footer-links">
+                        <li><a href="{{ route('register-new-license') }}"><i class="fas fa-id-card-alt"></i> Register New License</a></li>
+                        <li><a href="{{ route('renew') }}"><i class="fas fa-redo-alt"></i> Renew License</a></li>
+                        <li><a href="{{ route('checkstatus') }}"><i class="fas fa-info-circle"></i> Check Application Status</a></li>
+                        <li><a href="#"><i class="fas fa-download"></i> Download E-License</a></li>
+                        <li><a href="#"><i class="fas fa-user-shield"></i> Privacy & Policy</a></li>
+                    </ul>
+                </div>
+            </div>
 
-				<div class="col-md-4 col-md-push-1">
-					<div class="gtco-widget">
-						<h3>Links</h3>
-						<ul class="gtco-footer-links">
-							<li><a href="#">Knowledge Base</a></li>
-							<li><a href="#">Career</a></li>
-							<li><a href="#">Press</a></li>
-							<li><a href="#">Terms of services</a></li>
-							<li><a href="#">Privacy Policy</a></li>
-						</ul>
-					</div>
-				</div>
+            <div class="col-md-4">
+                <div class="gtco-widget">
+                    <h3>Contact Support</h3>
+                    <ul class="gtco-quick-contact">
+                        <li><a href="#"><i class="fas fa-phone"></i> +855 23 456 789</a></li>
+                        <li><a href="#"><i class="fas fa-envelope"></i> support@license.gov.kh</a></li>
+                        <li><a href="#"><i class="fas fa-comments"></i> Live Support Chat</a></li>
+                    </ul>
+                </div>
+            </div>
 
-				<div class="col-md-4">
-					<div class="gtco-widget">
-						<h3>Get In Touch</h3>
-						<ul class="gtco-quick-contact">
-							<li><a href="#"><i class="icon-phone"></i> +1 234 567 890</a></li>
-							<li><a href="#"><i class="icon-mail2"></i> info@gettemplates.co</a></li>
-							<li><a href="#"><i class="icon-chat"></i> Live Chat</a></li>
-						</ul>
-					</div>
-				</div>
+        </div>
 
-			</div>
-
-			<div class="row copyright">
-				<div class="col-md-12">
-					<p class="pull-left">
-						<small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small> 
-						<small class="block">Designed by <a href="http://gettemplates.co/" target="_blank">GetTemplates.co</a> Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a></small>
-					</p>
-					<p class="pull-right">
-						<ul class="gtco-social-icons pull-right">
-							<li><a href="#"><i class="icon-twitter"></i></a></li>
-							<li><a href="#"><i class="icon-facebook"></i></a></li>
-							<li><a href="#"><i class="icon-linkedin"></i></a></li>
-							<li><a href="#"><i class="icon-dribbble"></i></a></li>
-						</ul>
-					</p>
-				</div>
-			</div>
-
-       
-
-		</div>
-	</footer>
+        <div class="row copyright">
+            <div class="col-md-12 text-center">
+                <p>
+                    <small class="block">&copy; 2025 Cambodian Driver License Portal. All rights reserved.</small>
+                    <small class="block">Developed for public convenience & service innovation.</small>
+                </p>
+                <ul class="gtco-social-icons">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-telegram-plane"></i></a></li>
+                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
