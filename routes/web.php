@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Artisan;
 //     return view('frontend.layout.master'); // ✅ load the child view, not the master
 // });
 
+Route::get('/test', fn() => 'Laravel working!');
+
 Route::get('/run-migrate', function () {
     Artisan::call('migrate', ['--force' => true]);
     return '✅ Migration done';
