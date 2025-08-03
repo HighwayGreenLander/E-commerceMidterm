@@ -25,4 +25,5 @@ RUN composer install --no-dev --optimize-autoloader
 # Laravel needs env and writable folders that only exist after container runs
 
 # Start the Laravel dev server (okay for Render Free Plan)
-CMD ["php", "artisan", "serve", "--host=0.0.0.0", "--port=8080"]
+## work||CMD ["php", "artisan", "serve", "--host=0.0.0.0", "--port=8080"]
+CMD ["php", "-S", "0.0.0.0:8080", "-t", "public"]
