@@ -10,7 +10,7 @@ services:
       - key: APP_ENV
         value: production
       - key: APP_KEY
-        sync: false  # you must set this manually in the Render dashboard
+        value: base64:GwXWr4MmBxHzysLzrllf51pAYISVskIwugKViWfcBTI=
       - key: APP_URL
         value: https://ecommerce-laravel.onrender.com
       - key: DB_CONNECTION
