@@ -19,6 +19,7 @@ services:
         value: database/database.sqlite
     startCommand: |
       chmod -R 775 storage bootstrap/cache &&
+      touch database/database.sqlite &&
       php artisan migrate --force &&
       php artisan config:clear &&
       php artisan config:cache &&
