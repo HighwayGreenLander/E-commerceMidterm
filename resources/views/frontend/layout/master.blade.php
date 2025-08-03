@@ -22,7 +22,7 @@
 	
 
 	
-	@include('Frontend/layout/styleshop')
+	@include('frontend/layout/styleshop')
 
 
 	</head>
@@ -31,7 +31,7 @@
 	
 	<div id="page">
 		
-		@include('Frontend/layout/header')
+		@include('frontend/layout/header')
 
 		@yield('header')
 
@@ -52,7 +52,7 @@
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
 	</div>
-	@include('Frontend/layout/jssshop')
+	@include('frontend/layout/jssshop')
 	</body>
 </html>
 
