@@ -1,12 +1,12 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Frontend\HomeController;
-use App\Http\Controllers\Frontend\ServiceController;
-use App\Http\Controllers\Frontend\UserController;
-use App\Http\Controllers\Frontend\NewsController;
-use App\Http\Controllers\Frontend\AboutController;
-use App\Http\Controllers\Frontend\CheckoutController;
+use App\Http\Controllers\frontend\HomeController;
+use App\Http\Controllers\frontend\ServiceController;
+use App\Http\Controllers\frontend\UserController;
+use App\Http\Controllers\frontend\NewsController;
+use App\Http\Controllers\frontend\AboutController;
+use App\Http\Controllers\frontend\CheckoutController;
 use Illuminate\Support\Facades\Artisan;
 
 // Route::get('/', function () {
