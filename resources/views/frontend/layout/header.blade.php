@@ -33,10 +33,10 @@
 							</li>
 						</ul>
 					</div>
-					<div style="text-align: right; padding: 10px;">
+					
         			<a href="{{ url('/lang/en') }}">English</a> |
         			<a href="{{ url('/lang/km') }}">ខ្មែរ</a>
-    			</div>
+    			
 				</div>
 				
 			</div>
