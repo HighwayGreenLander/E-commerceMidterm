@@ -468,7 +468,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color: #17B794;
+  color: #29407D;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -914,11 +914,11 @@ form label {
 #gtco-subscribe .btn {
   height: 54px;
   border: none !important;
-  background: #17B794;
-  color: #fff;
+  background: #C2E5F2;
+  color: #29407D;
   font-size: 16px;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 600;
   padding-left: 50px;
   padding-right: 50px;
 }
@@ -1254,40 +1254,40 @@ form label {
 }
 
 .btn-primary {
-  background: #17B794;
+  background: #29407D;
   color: #fff;
-  border: 2px solid #17B794 !important;
+  border: 2px solid #29407D !important;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #1acea6 !important;
-  border-color: #1acea6 !important;
+  background: #3653a3 !important;
+  border-color: #3653a3 !important;
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #17B794;
-  border: 2px solid #17B794;
+  color: #29407D;
+  border: 2px solid #29407D;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #17B794;
+  background: #29407D;
   color: #fff;
 }
 
 .btn-success {
-  background: #5cb85c;
+  background: #29407D;
   color: #fff;
-  border: 2px solid #5cb85c;
+  border: 2px solid #29407D;
 }
 .btn-success:hover, .btn-success:focus, .btn-success:active {
-  background: #4cae4c !important;
-  border-color: #4cae4c !important;
+  background: #3653a3 !important;
+  border-color: #3653a3 !important;
 }
 .btn-success.btn-outline {
   background: transparent;
-  color: #5cb85c;
-  border: 2px solid #5cb85c;
+  color: #3653a3;
+  border: 2px solid #3653a3;
 }
 .btn-success.btn-outline:hover, .btn-success.btn-outline:focus, .btn-success.btn-outline:active {
-  background: #5cb85c;
+  background: #3653a3;
   color: #fff;
 }
 
@@ -1879,7 +1879,7 @@ form label {
 .owl-theme .owl-dots .owl-dot span {
   width: 10px;
   height: 10px;
-  background: #17B794;
+  background: #29407D;
   -webkit-transition: 0.2s;
   -o-transition: 0.2s;
   transition: 0.2s;
@@ -1887,16 +1887,15 @@ form label {
 }
 .owl-theme .owl-dots .owl-dot span:hover {
   background: none;
-  border: 2px solid #17B794;
+  border: 2px solid #29407D;
 }
 
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
   background: none;
-  border: 2px solid #17B794;
+  border: 2px solid #29407D;
 }
 
 /*# sourceMappingURL=style.css.map */
-
 
 
 

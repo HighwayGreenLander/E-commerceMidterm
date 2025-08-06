@@ -1,7 +1,7 @@
 @extends('frontend/layout/master')
 
 @section('header')
-    <header id="gtco-header" class="gtco-cover" role="banner" style="background-image:url('{{ secure_asset('Frontend/assets/images/Header-bg1.jpg') }}');background-repeat: no-repeat;background-size: cover;background-position: center;">
+    <header id="gtco-header" class="gtco-cover" role="banner" style="background-image:url('{{ asset('Frontend/assets/images/Header-bg1.jpg') }}');background-repeat: no-repeat;background-size: cover;background-position: center;">
 				<div class="overlay"></div>
 				<div class="gtco-container">
 					<div class="row">
@@ -65,7 +65,6 @@
 					</div>
 				</div>
 			</div>
-			
 			<div id="gtco-features">
 				<div class="gtco-container">
 					<div class="row">
@@ -179,35 +178,93 @@
 					</div>
 				</div>
 			</div>
-{{-- 
+
 			<div id="gtco-products">
+				@php 
+						// Expanded News Data
+						$news = [
+							[
+								'title' => 'New Road Safety Campaign Launched Nationwide',
+								'image_url' => 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=70',
+								'created_at' => '2025-07-20',
+								'description' => 'The Ministry of Transport has launched a new road safety awareness campaign targeting young drivers to reduce traffic accidents and fatalities across Cambodia.',
+								'url' => '#'
+							],
+							[
+								'title' => 'Simplified Process for Driver’s License Renewal',
+								'image_url' => 'https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=800&q=70',
+								'created_at' => '2025-07-15',
+								'description' => 'Drivers can now renew their licenses online with an easier and faster process, eliminating the need to wait in long lines at licensing offices.',
+								'url' => '#'
+							],
+							[
+								'title' => 'Upcoming Driving Test Dates Released for August',
+								'image_url' => 'https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=70',
+								'created_at' => '2025-07-10',
+								'description' => 'The licensing department has announced the schedule for driving tests in August. Applicants are encouraged to book their slots early via the online system.',
+								'url' => '#'
+							],
+							[
+								'title' => 'New Road Safety Campaign Launched Nationwide',
+								'image_url' => 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=70',
+								'created_at' => '2025-07-20',
+								'description' => 'The Ministry of Transport has launched a new road safety awareness campaign targeting young drivers to reduce traffic accidents and fatalities across Cambodia.',
+								'url' => '#'
+							],
+							[
+								'title' => 'Simplified Process for Driver’s License Renewal',
+								'image_url' => 'https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=800&q=70',
+								'created_at' => '2025-07-15',
+								'description' => 'Drivers can now renew their licenses online with an easier and faster process, eliminating the need to wait in long lines at licensing offices.',
+								'url' => '#'
+							],
+							[
+								'title' => 'Upcoming Driving Test Dates Released for August',
+								'image_url' => 'https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=70',
+								'created_at' => '2025-07-10',
+								'description' => 'The licensing department has announced the schedule for driving tests in August. Applicants are encouraged to book their slots early via the online system.',
+								'url' => '#'
+							],
+						];
+					@endphp
 				<div class="gtco-container">
 					<div class="row animate-box">
 						<div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
-							<h2>Products</h2>
-							<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+							<h2>Recent News</h2>
+               				 <p>Catch up on the latest news, regulations, and service updates from the Licensing Department.</p>
 						</div>
 					</div>
 					<div class="row animate-box">
 						<div class="owl-carousel owl-carousel-carousel">
+
+							@foreach ($news as $item)
 							<div class="item">
-								<img src="images/img_1.jpg" alt="Free HTML5 Bootstrap Template by GetTemplates.co">
+								<img src="{{ $item['image_url'] }}" >
+								<h6 style="
+									margin-top: 15px;
+									font-size: 16px;
+									font-weight: 600;
+									color: #333;
+									line-height: 1.4;
+									background: #f8f8f8;
+									padding: 10px;
+									border-radius: 8px;
+									box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+									min-height: 70px;
+								">
+									{{ $item['title'] }}
+								</h6>
 							</div>
-							<div class="item">
-								<img src="images/img_2.jpg" alt="Free HTML5 Bootstrap Template by GetTemplates.co">
-							</div>
-							<div class="item">
-								<img src="images/img_3.jpg" alt="Free HTML5 Bootstrap Template by GetTemplates.co">
-							</div>
-							<div class="item">
-								<img src="images/img_4.jpg" alt="Free HTML5 Bootstrap Template by GetTemplates.co">
-							</div>
+							@endforeach
 						</div>
 					</div>
 				</div>
-			</div> --}}
+			</div>
+			
+
 
 			
+{{-- 			
 
 			<div id="gtco-subscribe">
 				<div class="gtco-container">
@@ -240,5 +297,5 @@
 					</div>
 				</div>
 
-			</div>
+			</div> --}}
 @endsection

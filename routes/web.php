@@ -24,7 +24,7 @@ Route::get('/lang/{locale}', function ($locale) {
     return redirect()->back();
 });
 
-Route::get('/test', fn() => 'Laravel working!');
+
 
 Route::get('/run-migrate', function () {
     Artisan::call('migrate', ['--force' => true]);
