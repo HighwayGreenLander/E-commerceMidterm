@@ -13,6 +13,17 @@ use Illuminate\Support\Facades\Artisan;
 //     return view('frontend.layout.master'); // ✅ load the child view, not the master
 // });
 
+Route::get('/lang/{locale}', function ($locale) {
+    if (!in_array($locale, ['en', 'km'])) {
+        abort(400); // Invalid language
+    }
+
+    session(['locale' => $locale]);
+    app()->setLocale($locale);
+
+    return redirect()->back();
+});
+
 Route::get('/test', fn() => 'Laravel working!');
 
 Route::get('/run-migrate', function () {

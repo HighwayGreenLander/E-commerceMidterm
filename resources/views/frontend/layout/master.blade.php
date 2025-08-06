@@ -1,5 +1,10 @@
 <!DOCTYPE HTML>
 <html>
+
+	<div style="text-align: right; padding: 10px;">
+        <a href="{{ url('/lang/en') }}">English</a> |
+        <a href="{{ url('/lang/km') }}">ខ្មែរ</a>
+    </div>
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
